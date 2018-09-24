@@ -10,6 +10,7 @@ int main( int argc, char *argv[] )
   printf("\n");
 }
 
+// Below function should break the character array into a characteristic
 bool characteristic(char numString[], int c)
 {
   int index;
@@ -29,6 +30,7 @@ bool characteristic(char numString[], int c)
   return false;
 }
 
+// Below function should break the character array into a mantissa
 bool mantissa(char numString[], int numerator, int denominator) {
   return false;
 }
@@ -41,7 +43,7 @@ int endIndex(char numString[])
   {
 
   }
-
+  // Should find the end index
   return 0;
 }
 
